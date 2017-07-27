@@ -10,12 +10,12 @@ npm install gulp-rubbish
 Usage
 -----------
 
-// apply for all file types
+<!--- apply for all file types -->
 
 gulp.src('test.css', { buffer: true })
 	.pipe(gulpRubbish('assets', '*'));
 
-// apply for specific file type
+<!--- apply for specific file type -->
 
 gulp.src('test.css', { buffer: true })
 	.pipe(gulpRubbish('assets', 'jpg'));
