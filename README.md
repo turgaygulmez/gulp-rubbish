@@ -1,7 +1,7 @@
 gulp-rubbish
 ===========================
 
-> A gulp plugin which removes file(s) from given directory if the file is not used in the source file.
+> A gulp plugin which removes file(s) from a given directory if the file name is not used in the source file.
 
 Install with npm [URL](https://www.npmjs.com/)
 -------------------
@@ -9,16 +9,17 @@ npm install gulp-rubbish
 
 Usage
 -----------
-
-<!--- apply for all file types -->
+```js
+// apply for all file types
 
 gulp.src('test.css', { buffer: true })
 	.pipe(gulpRubbish('assets', '*'));
 
-<!--- apply for specific file type -->
+// apply for specific file type
 
 gulp.src('test.css', { buffer: true })
 	.pipe(gulpRubbish('assets', 'jpg'));
+```
 
 API
 -------------------
