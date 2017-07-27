@@ -1,0 +1,17 @@
+{
+  "name": "gulp-rubbish",
+  "version": "1.0.0",
+  "description": "A gulp plugin which removes file(s) from given directory if the file is not used in the source file.",
+  "main": "gulp-rubbish.js",
+  "author": "Turgay Gulmez (https://github.com/turgaygulmez)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "glob": "^7.1.2"
+  }
+}
